@@ -9,8 +9,8 @@ const AboutMe = () => {
             <h1 className="title-font mb-4 text-center text-2xl font-bold text-white sm:text-3xl">
               About ME
             </h1>
-            <div class="mt-6 flex justify-center">
-              <div class="inline-flex h-1 w-16 rounded-full bg-emerald-500"></div>
+            <div className="mt-6 flex justify-center">
+              <div className="inline-flex h-1 w-16 rounded-full bg-emerald-500"></div>
             </div>
           </div>
         </div>
