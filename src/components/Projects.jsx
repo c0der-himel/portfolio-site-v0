@@ -19,7 +19,7 @@ const Projects = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
               <img
-                className="mx-auto h-44 w-56 px-5 pt-5"
+                className="mx-auto h-48 w-56 px-5 pt-5"
                 src={fOOdy}
                 alt="fOOdy"
               />
@@ -82,7 +82,7 @@ const Projects = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
               <img
-                className="mx-auto h-44 w-56 px-5 pt-5"
+                className="mx-auto h-48 w-56 px-5 pt-5"
                 src={crypto}
                 alt="crypto"
               />
@@ -145,7 +145,7 @@ const Projects = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
               <img
-                className="mx-auto h-44 w-56 px-5 pt-5"
+                className="mx-auto h-48 w-56 px-5 pt-5"
                 src={travel}
                 alt="travel"
               />
@@ -208,7 +208,7 @@ const Projects = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
               <img
-                className="mx-auto h-44 w-56 px-5 pt-5"
+                className="mx-auto h-48 w-56 px-5 pt-5"
                 src="https://laravel.com/img/logomark.min.svg"
                 alt="laravel"
               />
@@ -251,7 +251,7 @@ const Projects = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
               <img
-                className="mx-auto h-44 w-56 px-5 pt-5"
+                className="mx-auto h-48 w-56 px-5 pt-5"
                 src={vscode}
                 alt="vscode"
               />
@@ -313,7 +313,7 @@ const Projects = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
               <img
-                className="mx-auto h-44 w-56 px-5 pt-5"
+                className="mx-auto h-48 w-56 px-5 pt-5"
                 src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
                 alt="node"
               />
