@@ -1,6 +1,7 @@
 import fOOdy from '../img/projects/fOOdy.png';
 import crypto from '../img/projects/crypto.png';
 import travel from '../img/projects/travel.png';
+import vscode from '../img/projects/vscode.png';
 
 const Projects = () => {
   return (
@@ -87,7 +88,7 @@ const Projects = () => {
               />
               <div className="p-6">
                 <h2 className="title-font mb-1 text-xs font-medium tracking-widest text-gray-500">
-                  Front End Project
+                  Frontend Project
                 </h2>
                 <h1 className="title-font mb-3 text-lg font-medium text-white">
                   🚀 Cryptoverse 💰
@@ -184,6 +185,153 @@ const Projects = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/c0der-himel/travel-now-client"
+                    className="inline-flex items-center text-emerald-400 md:mb-2 lg:mb-0"
+                  >
+                    Github
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
+              <img
+                className="mx-auto h-44 w-56 px-5 pt-5"
+                src="https://laravel.com/img/logomark.min.svg"
+                alt="laravel"
+              />
+              <div className="p-6">
+                <h2 className="title-font mb-1 text-xs font-medium tracking-widest text-gray-500">
+                  Backend Project
+                </h2>
+                <h1 className="title-font mb-3 text-lg font-medium text-white">
+                  Laravel REST API
+                </h1>
+                <p className="mb-3 leading-relaxed">
+                  🧑‍💻 A simple RESTful API with Sanctum Authentication in
+                  Laravel 8 🚀
+                </p>
+                <div className="mt-5 flex flex-wrap items-center justify-center">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/c0der-himel/laravel-rest-api-with-sanctum-authentication"
+                    className="inline-flex items-center text-emerald-400 md:mb-2 lg:mb-0"
+                  >
+                    Github
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
+              <img
+                className="mx-auto h-44 w-56 px-5 pt-5"
+                src={vscode}
+                alt="vscode"
+              />
+              <div className="p-6">
+                <h2 className="title-font mb-1 text-xs font-medium tracking-widest text-gray-500">
+                  Extension Project
+                </h2>
+                <h1 className="title-font mb-3 text-lg font-medium text-white">
+                  VSCode Extension Pack
+                </h1>
+                <p className="mb-3 leading-relaxed">
+                  🧑‍💻 VSCode Extension Pack for Web Development 🏗️.
+                </p>
+                <div className="mt-5 flex flex-wrap items-center justify-between">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://marketplace.visualstudio.com/items?itemName=c0der-himel.vscode-wev-dev-extension-pack&ssr=false#overview"
+                    className="inline-flex items-center text-emerald-400 md:mb-2 lg:mb-0"
+                  >
+                    Marketplace Site
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/c0der-himel/vscode-web-dev-extension-pack"
+                    className="inline-flex items-center text-emerald-400 md:mb-2 lg:mb-0"
+                  >
+                    Github
+                    <svg
+                      className="ml-2 h-4 w-4"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M5 12h14"></path>
+                      <path d="M12 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="p-4 md:w-1/3">
+            <div className="h-full overflow-hidden rounded-2xl border-2 border-gray-800">
+              <img
+                className="mx-auto h-44 w-56 px-5 pt-5"
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                alt="node"
+              />
+              <div className="p-6">
+                <h2 className="title-font mb-1 text-xs font-medium tracking-widest text-gray-500">
+                  Backend Project
+                </h2>
+                <h1 className="title-font mb-3 text-lg font-medium text-white">
+                  REST API Sequelize
+                </h1>
+                <p className="mb-3 leading-relaxed">
+                  👨‍💻 RESTful API using Express 🚀 & PostgreSQL 🐘
+                </p>
+                <div className="mt-5 flex flex-wrap items-center justify-center">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/c0der-himel/rest-api-sequelize"
                     className="inline-flex items-center text-emerald-400 md:mb-2 lg:mb-0"
                   >
                     Github
