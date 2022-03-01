@@ -17,7 +17,7 @@ const Hero = () => {
               I'm <span className="font-bold text-emerald-500">Himel</span>
             </span>
             <br className="hidden lg:inline-block" />
-            Full Stack Developer
+            Frontend Developer
           </h1>
           <p className="mb-8 leading-relaxed">
             I build web applications with modern technologies like MERN stack &
