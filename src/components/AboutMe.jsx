@@ -33,11 +33,11 @@ const AboutMe = () => {
           </div>
           <div className="mt-4 border-t border-gray-800 pt-4 text-center sm:mt-0 sm:w-2/3 sm:border-l sm:border-t-0 sm:py-8 sm:pl-8 sm:text-left">
             <p className="mb-4 text-lg leading-relaxed">
-              I am a software engineer & full stack developer, i am from Dhaka,
-              Bangladesh. I am looking for opportunity to work with a great team
-              to enhance knowledge to become a great software engineer and build
-              something meaningful for future generation. I love to code & build
-              new things which will benefit others. I love to spend time with my
+              I am a frontend developer, i am from Dhaka, Bangladesh. I am
+              looking for opportunity to work with a great team to enhance
+              knowledge to become a great software engineer and build something
+              meaningful for future generation. I love to code & build new
+              things which will benefit others. I love to spend time with my
               family and friends. My favorite place to visit is Saint Martin. I
               love to help other and explain things which I am passionate about.
             </p>
